@@ -1,0 +1,367 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1168040655/vector/chalk-doodle-math-blackboard.jpg?s=2048x2048&w=is&k=20&c=ZZ7CLr6eIUhxFTrWs1Y8o8kZwGNvSLUW0TYgB2thLA0=);
+}
+
+
+@media (min-width: 576px) { .container, .container-sm {
+    max-width: 540px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+   
+    header{
+        background-image: url(https://media.istockphoto.com/id/1419065993/photo/wooden-toy-blocks-school-supplies-math-fractions-pencils-numbers-on-beige-background-back-to.jpg?s=1024x1024&w=is&k=20&c=KM8V78wfmL4cXKBqw29xAuUgdhdDaAQykTz-6HavMtM=);
+        text-align: center;
+      
+      }
+      h2{
+        text-align: center;
+        color: #fb0066;
+       text-shadow: #e5e5e5;
+      }
+      .calculator {
+        display: grid;
+        grid-template-columns: auto;
+
+        padding: 1em;
+        border-radius: 1em;
+        background-color: #fb0066;
+        box-shadow: rgba(57, 36, 36, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+    input[type=button] {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #0e7355;
+        color: white;
+        border: solid black 0.5px;
+        width: 50%;
+        border-radius: 5px;
+        height: 70%;
+        outline: none;
+    }
+    .display-box {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #dcdbe1;
+        border: solid black 0.5px;
+        color: black;
+        border-radius: 5px;
+        width: 12rem;
+        height: 5rem;
+        margin:1rem 1rem 1rem 1rem ;
+    }
+    
+
+    input:active[type=button] {
+        background: #e5e5e5;
+        -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+        -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+        box-shadow: inset 0px 0px 5px #c1c1c1;
+    }
+    *, ::after, ::before {
+        box-sizing: border-box;
+    }
+    div {
+        display: block;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { .container, .container-md, .container-sm {
+    max-width: 720px;
+}
+
+
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        width: 100%;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    header{
+        background-image: url(https://media.istockphoto.com/id/1419065993/photo/wooden-toy-blocks-school-supplies-math-fractions-pencils-numbers-on-beige-background-back-to.jpg?s=1024x1024&w=is&k=20&c=KM8V78wfmL4cXKBqw29xAuUgdhdDaAQykTz-6HavMtM=);
+        text-align: center;
+      
+      }
+      h2{
+        text-align: center;
+        color: #fb0066;
+       text-shadow: #e5e5e5;
+      }
+      .calculator {
+       display: grid;
+       grid-template-columns: auto;
+        padding: 1em;
+        border-radius: 1em;
+        background-image:url(https://media.istockphoto.com/id/1439286764/vector/mathematics-hand-lettering-with-mathematical-doodle.jpg?s=2048x2048&w=is&k=20&c=niwFZf0wm1vBvqlqaK6_nOtR_a5vdYJhm5uzYOyInDk=) ;
+        box-shadow: rgba(57, 36, 36, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+    
+    input[type=button] {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #0e7355;
+        color: white;
+        border: solid black 0.5px;
+        font-size: larger;
+        border-radius: 5px;
+         outline: none;
+    }
+    .display-box {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #dcdbe1;
+        border: solid black 0.5px;
+        color: black;
+        border-radius: 5px;
+        width: 25rem;
+        height: 15rem;
+        
+    }
+    
+input:active[type=button] {
+    background: #e5e5e5;
+    font-size: xx-large;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+    }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px){ .container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    background-image: url(https://media.istockphoto.com/id/1419065993/photo/wooden-toy-blocks-school-supplies-math-fractions-pencils-numbers-on-beige-background-back-to.jpg?s=1024x1024&w=is&k=20&c=KM8V78wfmL4cXKBqw29xAuUgdhdDaAQykTz-6HavMtM=);
+    text-align: center;
+  
+  }
+  h2{
+    text-align: center;
+    color: #fb0066;
+   text-shadow: #e5e5e5;
+  }
+  .calculator {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 2rem 5rem 2rem 5rem;
+    border-radius: 1em;
+    background-color: #fb0066;
+    box-shadow: rgba(57, 36, 36, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0e7355;
+    color: white;
+    border: solid black 0.5px;
+    width: 50%;
+    border-radius: 5px;
+    height: 70%;
+    outline: none;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 25rem;
+        height: 15rem;
+    margin:1rem 1rem 1rem 1rem ;
+}
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px){.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1{
+    background-image: url(https://media.istockphoto.com/id/1419065993/photo/wooden-toy-blocks-school-supplies-math-fractions-pencils-numbers-on-beige-background-back-to.jpg?s=1024x1024&w=is&k=20&c=KM8V78wfmL4cXKBqw29xAuUgdhdDaAQykTz-6HavMtM=);
+    text-align: center;
+  
+  }
+  .calculator {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 2rem 5rem 2rem 5rem;
+    border-radius: 1em;
+    background-color: #fb0066;
+    box-shadow: rgba(57, 36, 36, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+input[type=button] {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0e7355;
+    color: white;
+    border: solid black 0.5px;
+    border-radius: 5px;
+
+    outline: none;
+}
+.display-box {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #dcdbe1;
+    border: solid black 0.5px;
+    color: black;
+    border-radius: 5px;
+    width: 25rem;
+        height: 15rem;
+    margin:1rem 1rem 1rem 1rem ;
+}
+
+
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+}
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1320px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    
+    header{
+        background-image: url(https://media.istockphoto.com/id/1419065993/photo/wooden-toy-blocks-school-supplies-math-fractions-pencils-numbers-on-beige-background-back-to.jpg?s=1024x1024&w=is&k=20&c=KM8V78wfmL4cXKBqw29xAuUgdhdDaAQykTz-6HavMtM=);
+        text-align: center;
+      }
+      h2{
+        text-align: center;
+        color: #fb0066;
+       text-shadow: #e5e5e5;
+      }
+      .calculator {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 2rem 5rem 2rem 5rem;
+        border-radius: 1em;
+        background-color: #fb0066;
+        box-shadow: rgba(57, 36, 36, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+        
+    }
+    input[type=button] {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #0e7355;
+        color: white;
+        border: solid black 0.5px;
+        border-radius: 5px;
+        font-size: 10rem
+        outline: none;
+    }
+    
+    .display-box {
+        font-family: 'Orbitron', sans-serif;
+        background-color: #dcdbe1;
+        border: solid black 0.5px;
+        color: black;
+        border-radius: 5px;
+        display: inline;
+        gap:10rem;
+       align-items:center;
+        width: 30rem;
+        height: 10rem;
+        margin:1rem 1rem 1rem 1rem ;
+    }
+    
+input:active[type=button] {
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}   
+    }
+    
+    
+    
+ 
+
+
+
+   
+
+
+
+
+
+
+
+          
+
+
+        
+
